@@ -4,7 +4,7 @@ jobs:
   include:
     - stage: unit tests
       script: echo one
-    - stage: unit tests
+    - stage: unit tests 2
       script: echo two
     - stage: deploy to staging
       script: skip
